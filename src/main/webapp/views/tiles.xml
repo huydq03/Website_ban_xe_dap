@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    <!-- Base Define admin-->
+    <definition name="base.definition" template="/views/layout/template_admin.jsp">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="header" value="/views/layout/admin/_header.jsp"/>
+        <put-attribute name="aside" value="/views/layout/admin/_aside.jsp"/>
+        <put-attribute name="body" value=""/>
+        <put-attribute name="footer" value="/views/layout/admin/_footer.jsp"/>
+    </definition>
+
+    <definition name="dashboard" extends="base.definition">
+        <put-attribute name="title" value="Home Page"/>
+        <put-attribute name="body" value="/views/admin/dashboard.jsp"/>
+    </definition>
+    <definition name="categoryList" extends="base.definition">
+        <put-attribute name="title" value="Category Management"/>
+        <put-attribute name="body" value="/views/admin/category/category_list.jsp"/>
+    </definition>
+    <!--    category-->
+    <definition name="categoryCreate" extends="base.definition">
+        <put-attribute name="title" value="Add Category"/>
+        <put-attribute name="body" value="/views/admin/category/create.jsp"/>
+    </definition>
+    <definition name="categoryEdit" extends="base.definition">
+        <put-attribute name="title" value="Update Category"/>
+        <put-attribute name="body" value="/views/admin/category/edit.jsp"/>
+    </definition>
+    <!--    end category-->
+    <!--    user-->
+    <definition name="userList" extends="base.definition">
+        <put-attribute name="title" value="Users Management"/>
+        <put-attribute name="body" value="/views/admin/customer/customer_list.jsp"/>
+    </definition>
+    <definition name="userCreate" extends="base.definition">
+        <put-attribute name="title" value="Add user"/>
+        <put-attribute name="body" value="/views/admin/customer/create.jsp"/>
+    </definition>
+    <definition name="userEdit" extends="base.definition">
+        <put-attribute name="title" value="Update user"/>
+        <put-attribute name="body" value="/views/admin/customer/edit.jsp"/>
+    </definition>
+    <!--    end user-->
+    <!--    product-->
+    <definition name="productList" extends="base.definition">
+        <put-attribute name="title" value="Products Management"/>
+        <put-attribute name="body" value="/views/admin/product/product_list.jsp"/>
+    </definition>
+    <definition name="productCreate" extends="base.definition">
+        <put-attribute name="title" value="Add product"/>
+        <put-attribute name="body" value="/views/admin/product/create.jsp"/>
+    </definition>
+    <definition name="productEdit" extends="base.definition">
+        <put-attribute name="title" value="Update product"/>
+        <put-attribute name="body" value="/views/admin/product/edit.jsp"/>
+    </definition>
+    <!--    end product-->
+    <!--    employee-->
+    <definition name="employeeList" extends="base.definition">
+        <put-attribute name="title" value="Employees Management"/>
+        <put-attribute name="body" value="/views/admin/staff/staff_list.jsp"/>
+    </definition>
+    <definition name="employeeCreate" extends="base.definition">
+        <put-attribute name="title" value="Add employee"/>
+        <put-attribute name="body" value="/views/admin/staff/create.jsp"/>
+    </definition>
+    <definition name="employeeEdit" extends="base.definition">
+        <put-attribute name="title" value="Update employee"/>
+        <put-attribute name="body" value="/views/admin/staff/edit.jsp"/>
+    </definition>
+    <!--    end employee-->
+    <!-- Base Define user-->
+    <definition name="user.definition" template="/views/layout/template_user.jsp">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="header" value="/views/layout/user/_header.jsp"/>
+        <put-attribute name="body" value=""/>
+        <put-attribute name="footer" value="/views/layout/user/_footer.jsp"/>
+    </definition>
+    <!--    home-->
+    <definition name="home" extends="user.definition">
+        <put-attribute name="title" value="Home Page"/>
+        <put-attribute name="body" value="/views/user/home.jsp"/>
+    </definition>
+    <!--    end home-->
+    <!--    product-->
+    <definition name="product" extends="user.definition">
+        <put-attribute name="title" value="Product Page"/>
+        <put-attribute name="body" value="/views/user/list_product.jsp"/>
+    </definition>
+    <definition name="productByCategory" extends="user.definition">
+        <put-attribute name="title" value="Product Page"/>
+        <put-attribute name="body" value="/views/user/list_productByCategory.jsp"/>
+    </definition>
+    <!--    end product-->
+    <!--    detail-->
+    <definition name="detailProduct" extends="user.definition">
+        <put-attribute name="title" value="Product Page"/>
+        <put-attribute name="body" value="/views/user/detail.jsp"/>
+    </definition>
+    <!--    end detail-->
+    <!--    cart-->
+    <definition name="cart.index" extends="user.definition">
+        <put-attribute name="title" value="Product Page"/>
+        <put-attribute name="body" value="/views/user/cart_index.jsp"/>
+    </definition>
+    <!--    end cart-->
+
+</tiles-definitions>

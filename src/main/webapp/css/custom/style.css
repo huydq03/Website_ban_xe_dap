@@ -1,0 +1,319 @@
+/* header */
+.menu-top .navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.menu-top img {
+  width: 130px;
+  height: 50px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+/* .search-btn {
+  width: 25em;
+} */
+.menu-nav .nav-item {
+  text-transform: uppercase;
+}
+
+.menu-nav .nav-item a {
+  margin-right: 30px;
+}
+
+/* banner */
+.slide-show img {
+  width: 100% !important;
+  height: 550px !important;
+}
+
+/* ban chay */
+.title-ban-chay {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* .dataxe {
+  display: flex;
+  justify-content: center;
+} */
+.card {
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+/* .card-title {
+  display: -webkit-box;
+  max-height: 75px;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 2;
+  line-height: 20px;
+} */
+/*  */
+.menu-top .navbar-expand-lg .navbar-collapse {
+  flex: 1;
+}
+
+.d-flex {
+  flex: 1;
+}
+
+.tin-tuc-tt {
+  margin-bottom: 50px;
+}
+
+.title-tin-tuc {
+  margin-top: 15px;
+}
+
+/* .san-pham-form .row {
+  justify-content: space-around;
+} */
+/* .dataxe {
+  flex-direction: column;
+} */
+.card-mota {
+  display: -webkit-box;
+  max-height: 75px;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 3;
+  line-height: 20px;
+  /* font-size: 15px; */
+}
+
+.tin-tuc .card-mota {
+  display: -webkit-box;
+  max-height: 110px;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 5;
+  line-height: 20px;
+  /* font-size: 15px; */
+}
+
+.tablesanpham .card-mota {
+  display: -webkit-box;
+  max-height: 88.8px;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 2;
+  line-height: 37px;
+  /* font-size: 15px; */
+}
+
+/* sản phẩm */
+.san-pham {
+  display: flex;
+  margin-top: 20px;
+}
+
+.tin-tuc {
+  display: flex;
+  margin-top: 20px;
+}
+
+.tin-tuc .danh-muc {
+  width: 300px;
+  margin-right: 80px;
+}
+
+.danh-muc {
+  width: 300px;
+  margin-right: 30px;
+}
+
+.danh-muc .flex-column {
+  width: 300px;
+}
+
+/* .danh-muc .nav {
+  border: solid 1px black;
+} */
+
+.phan-trang {
+  display: flex;
+  justify-content: center;
+}
+
+/* liên hệ */
+.lien-he {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.dang-nhap {
+  margin-bottom: 30px;
+}
+
+.dang-nhap .row {
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.title-dang-nhap {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form-check-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-check-label a {
+  text-decoration: none;
+}
+
+.pag-nd {
+  margin: 8px;
+}
+
+/* admin */
+.tabss {
+  margin-top: 30px;
+}
+
+.flex-column {
+  flex-direction: column !important;
+  /* width: 25%; */
+}
+
+.nav-pills .nav-link {
+  width: 180px;
+}
+
+.phantrang-qlsp {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+/* hồ sỏ */
+.title-hoso {
+  margin: 30px 0 40px 0;
+  text-align: center;
+}
+
+.formhoso .row {
+  justify-content: center;
+}
+
+.btn-capnhathoso {
+  text-align: right;
+}
+
+.tatcadonhang img {
+  height: 80px;
+  width: 80px;
+}
+
+.tatcadonhang td {
+  padding-top: 35px;
+}
+
+.tatcadonhang .anh-mh {
+  padding-top: 0;
+}
+
+/* gioi thieu */
+.title-gioithieu {
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+.dataxe a {
+  text-decoration: none;
+  color: black;
+}
+
+/* detail */
+.title-detail {
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+.title-tuongtu {
+  margin: 30px 0 30px 0;
+}
+
+.title-tuongtu span {
+  border-bottom: 1px solid black;
+}
+
+.title-ql-sp {
+  margin: 30px 0 30px 0;
+}
+
+/* admin */
+.quanlysanpham {
+  margin-left: 30px;
+}
+
+.quanlydaumuc {
+  margin-top: 30px;
+}
+
+.admin {
+  display: flex;
+}
+
+.admin .quanlydanhmuc {
+  margin-top: 20px;
+}
+
+.title-ql-dm {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.quanlydaumuc .navqldm {
+  width: 165px;
+}
+
+.admin .quanlydaumuc {
+  width: 30%;
+}
+
+.thongbaoloi {
+  margin-top: 15px;
+}
+
+.close {
+  padding: 0;
+  border-radius: 70px;
+}
+
+/* footer */
+footer {
+  background-color: #f8f9fa;
+}
+
+.footer .list-unstyled a {
+  text-decoration: none;
+  color: black;
+}
+
+/*  */
+.form-control.is-valid,
+.was-validated .form-control:valid {
+  background-image: url("");
+}
+
+a{
+  text-decoration: none !important;
+}
